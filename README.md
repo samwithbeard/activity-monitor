@@ -1,45 +1,42 @@
 # remote_pc_monitor
-allows to monitor the activity on a pc. For instance my sons gaming pc, to visualize the amount of gaming he does. 
+allows to monitor the activity on a pc. For instance my sons gaming pc ;) , to visualize the amount of gaming he does. 
 further to show the usage of all our pcs and raspis on one glance.
-![image](https://github.com/user-attachments/assets/f59a0719-c121-43e0-9bb8-36df0b18becd)
+![image](https://github.com/user-attachments/assets/b11ed8e8-14c4-42dd-b971-009562a184d5)
+
 
 
 
 # auto start
-Um das Python-Skript automatisch beim Start eines Windows-PCs auszuführen, können Sie es zu den Autostart-Programmen hinzufügen. Hier sind die Schritte, die Sie befolgen können:
+Um das Python-Skript automatisch beim Start eines Windows-PCs auszuführen,
 
 Methode 1: Verknüpfung im Autostart-Ordner
 Erstellen einer Batch-Datei:
-
-Erstellen Sie eine neue Textdatei und benennen Sie sie z.B. start_script.bat.
-Fügen Sie den folgenden Inhalt hinzu, um das Python-Skript auszuführen:
+z.B. start_script.bat.
 ```
   @echo off
   python "C:\Pfad\zu\Ihrem\skript.py"
 ```
 
-Speichern Sie die Datei.
+
 Hinzufügen zum Autostart-Ordner:
-
-Drücken Sie Win + R, um den Ausführen-Dialog zu öffnen.
-Geben Sie shell:startup ein und drücken Sie Enter. Dies öffnet den Autostart-Ordner.
+Win + R, um den Ausführen-Dialog zu öffnen.
+*shell:startup* eingeben und Enter drücken. Dies öffnet den Autostart-Ordner.
 Verschieben oder kopieren Sie die erstellte start_script.bat-Datei in diesen Ordner.
-Methode 2: Aufgabenplanung (Task Scheduler)
+Methode 2: (Task Scheduler)
 Task Scheduler öffnen:
-
 Drücken Sie Win + S und suchen Sie nach "Aufgabenplanung" oder "Task Scheduler".
 Öffnen Sie die Aufgabenplanung.
-Neue Aufgabe erstellen:
 
+Neue Aufgabe erstellen:
 Klicken Sie auf "Aufgabe erstellen" in der rechten Spalte.
 Geben Sie der Aufgabe einen Namen, z.B. "Start Python Script".
-Trigger hinzufügen:
 
+Trigger hinzufügen:
 Wechseln Sie zum Reiter "Trigger" und klicken Sie auf "Neu".
 Wählen Sie "Beim Start" aus der Dropdown-Liste unter "Aufgabe starten".
 Klicken Sie auf "OK".
-Aktionen hinzufügen:
 
+Aktionen hinzufügen:
 Wechseln Sie zum Reiter "Aktionen" und klicken Sie auf "Neu".
 Wählen Sie "Programm starten" aus der Dropdown-Liste.
 Geben Sie den Pfad zur python.exe ein (z.B. C:\Pfad\zu\python.exe).
