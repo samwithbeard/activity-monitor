@@ -1,6 +1,8 @@
 # remote_pc_monitor
 allows to monitor the activity on a pc. For instance my sons gaming pc, to visualize the amount of gaming he does. 
 further to show the usage of all our pcs and raspis on one glance.
+![image](https://github.com/user-attachments/assets/f61ccdfe-d87d-4a70-88d7-158fa0bf4f8f)
+
 
 # auto start
 Um das Python-Skript automatisch beim Start eines Windows-PCs auszuführen, können Sie es zu den Autostart-Programmen hinzufügen. Hier sind die Schritte, die Sie befolgen können:
