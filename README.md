@@ -1,7 +1,8 @@
 # remote_pc_monitor
 allows to monitor the activity on a pc. For instance my sons gaming pc, to visualize the amount of gaming he does. 
 further to show the usage of all our pcs and raspis on one glance.
-![image](https://github.com/user-attachments/assets/f61ccdfe-d87d-4a70-88d7-158fa0bf4f8f)
+![image](https://github.com/user-attachments/assets/f59a0719-c121-43e0-9bb8-36df0b18becd)
+
 
 
 # auto start
